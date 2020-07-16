@@ -4,6 +4,9 @@ module.exports = {
     extend: {
       fontFamily: {
         'myfont': ['Helvetica']
+      },
+      colors: {
+        'regal-blue': '#405f77',
       }
     },
   },
