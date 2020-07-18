@@ -625,6 +625,12 @@ video {
   src: local('Helvetica'), url(../fonts/Helvetica.ttf) format('ttf');
 }
 
+@font-face {
+  font-family: 'Brandon';
+
+  src: local('Brandon'), url(../fonts/BrandonText-Regular.otf) format('otf');
+}
+
 .space-y-0 > :not(template) ~ :not(template) {
   --space-y-reverse: 0;
   margin-top: calc(0px * calc(1 - var(--space-y-reverse)));
@@ -6111,6 +6117,10 @@ video {
 
 .font-myfont {
   font-family: Helvetica;
+}
+
+.font-myfontfix {
+  font-family: Brandon;
 }
 
 .font-hairline {
@@ -23483,6 +23493,10 @@ video {
 
   .sm\:font-myfont {
     font-family: Helvetica;
+  }
+
+  .sm\:font-myfontfix {
+    font-family: Brandon;
   }
 
   .sm\:font-hairline {
@@ -40858,6 +40872,10 @@ video {
     font-family: Helvetica;
   }
 
+  .md\:font-myfontfix {
+    font-family: Brandon;
+  }
+
   .md\:font-hairline {
     font-weight: 100;
   }
@@ -58231,6 +58249,10 @@ video {
     font-family: Helvetica;
   }
 
+  .lg\:font-myfontfix {
+    font-family: Brandon;
+  }
+
   .lg\:font-hairline {
     font-weight: 100;
   }
@@ -75602,6 +75624,10 @@ video {
 
   .xl\:font-myfont {
     font-family: Helvetica;
+  }
+
+  .xl\:font-myfontfix {
+    font-family: Brandon;
   }
 
   .xl\:font-hairline {

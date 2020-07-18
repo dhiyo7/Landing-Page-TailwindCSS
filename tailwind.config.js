@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'myfont': ['Helvetica']
+        'myfont': ['Helvetica'],
+        'myfontfix': ['Brandon']
       },
       colors: {
         'regal-blue': '#405f77',

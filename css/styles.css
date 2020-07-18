@@ -7,4 +7,9 @@
     src: local('Helvetica'), url(../fonts/Helvetica.ttf) format('ttf');
   }
 
+  @font-face {
+    font-family: 'Brandon';
+    src: local('Brandon'), url(../fonts/BrandonText-Regular.otf) format('otf');
+  }
+
 @tailwind utilities;
