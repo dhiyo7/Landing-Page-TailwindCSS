@@ -12,4 +12,9 @@
     src: local('Brandon'), url(../fonts/Brandon.otf) format('otf');
   }
 
+  @font-face {
+    font-family: 'BrandonNet';
+    src: local('BrandonNet'), url(../fonts/Net-Brandon.ttf) format('ttf');
+  }
+
 @tailwind utilities;

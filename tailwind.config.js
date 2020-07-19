@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       fontFamily: {
         'myfont': ['Helvetica'],
-        'myfontfix': ['Brandon']
+        'body': ['Brandon'],
+        'brandon': ['Net-Brandon']
       },
       colors: {
         'regal-blue': '#405f77',
