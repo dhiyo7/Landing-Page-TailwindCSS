@@ -1,11 +1,13 @@
+const {fontFamily} = require('tailwindcss/defaultTheme')
+
 module.exports = {
   purge: [],
   theme: {
     extend: {
       fontFamily: {
-        'myfont': ['Helvetica'],
-        'body': ['Brandon'],
-        'brandon': ['Net-Brandon']
+        'myfont': ['Helvetica', ...fontFamily.sans], // call this font with font-myfont
+        'body': ['Brandon', ...fontFamily.sans], // call this font with font-body
+        'brandon': ['BrandonNet', ...fontFamily.sans] // call this font with font-brandon
       },
       colors: {
         'regal-blue': '#405f77',

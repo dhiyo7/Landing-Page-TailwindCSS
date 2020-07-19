@@ -3,18 +3,27 @@
 @tailwind components;
 
 @font-face {
-    font-family: 'Helvetica';
-    src: local('Helvetica'), url(../fonts/Helvetica.ttf) format('ttf');
-  }
+  font-family: 'Helvetica';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./../fonts/Helvetica.ttf')  format('truetype');
+}
 
-  @font-face {
-    font-family: 'Brandon';
-    src: local('Brandon'), url(../fonts/Brandon.otf) format('otf');
-  }
+@font-face {
+  font-family: 'Brandon';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./../fonts/Brandon.otf')  format('truetype');
+}
 
-  @font-face {
-    font-family: 'BrandonNet';
-    src: local('BrandonNet'), url(../fonts/Net-Brandon.ttf) format('ttf');
-  }
+@font-face {
+  font-family: 'BrandonNet';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url('./../fonts/Net-Brandon.ttf')  format('truetype');
+}
 
 @tailwind utilities;
