@@ -17,6 +17,12 @@
   font-display: swap;
   src: url('./../fonts/Brandon.otf')  format('truetype');
 }
+@font-face {
+  font-family: 'BrandonBold';
+  font-style: normal;
+  font-display: swap;
+  src: url('./../fonts/BrandonBold.otf')  format('truetype');
+}
 
 @font-face {
   font-family: 'BrandonNet';
